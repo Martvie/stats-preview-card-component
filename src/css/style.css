@@ -1,3 +1,35 @@
-.main-container picture {
-    filter: var(--soft-violet);
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container{
+    background-color: red;
+    width: 900px;
+    height: 320px;
+    display: flex;
+}
+
+.main-container .container{
+    background-color: turquoise;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .container:last-child{
+    background-color: blueviolet;
+}
+
+.container .description {
+    background-color: blue;
+    width: 380px;
+    height: 260px;
 }
