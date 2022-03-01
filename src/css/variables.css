@@ -1,0 +1,17 @@
+:root {
+    /* Primary Colors */
+    
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --soft-violet-transparent: hsla(277, 64%, 61%, 0.5);
+
+    /* Neutral */
+
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-paragraph: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-headings: hsla(0, 0%, 100%, 0.6);
+
+    /* Font */
+    --font-header:'Lexend Deca', sans-serif;
+}
