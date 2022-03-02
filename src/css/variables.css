@@ -9,9 +9,10 @@
     /* Neutral */
 
     --white: hsl(0, 0%, 100%);
-    --slightly-transparent-paragraph: hsla(0, 0%, 100%, 0.75);
-    --slightly-transparent-headings: hsla(0, 0%, 100%, 0.6);
+    --slightly-transparent-less: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-more: hsla(0, 0%, 100%, 0.6);
 
     /* Font */
-    --font-header:'Lexend Deca', sans-serif;
+    --font-paragraf: font-family: 'Lexend Deca', sans-serif;
+    
 }
