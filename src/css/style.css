@@ -14,18 +14,23 @@ body {
     width: 900px;
     height: 320px;
     display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 .main-container .container{
     background-color: turquoise;
     width: 450px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .main-container .container:last-child{
-    background-color: blueviolet;
+    background-image: linear-gradient(var(--soft-violet-transparent), var(--soft-violet-transparent)), url(../images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container .description {
