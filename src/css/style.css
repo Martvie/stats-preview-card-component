@@ -14,7 +14,7 @@ body {
     background-color: var(--dark-desaturated-blue);
     max-width: 900px;
     width: 85%;
-    height: 320px;
+    height: 350px;
     display: flex;
     border-radius: 1rem;
     overflow: hidden;
@@ -22,7 +22,7 @@ body {
 
 .main-container .container{
     width: 50%;
-    height: 320px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,7 @@ body {
 .main-container .container:last-child{
     background-image: linear-gradient(var(--soft-violet-transparent), var(--soft-violet-transparent)), url(../images/image-header-desktop.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
