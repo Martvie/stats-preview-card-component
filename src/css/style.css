@@ -12,16 +12,16 @@ body {
 
 .main-container{
     background-color: var(--dark-desaturated-blue);
-    width: 900px;
+    max-width: 900px;
+    width: 85%;
     height: 320px;
     display: flex;
     border-radius: 1rem;
     overflow: hidden;
-    margin: 40px;
 }
 
 .main-container .container{
-    width: 450px;
+    width: 50%;
     height: 320px;
     display: flex;
     justify-content: center;
@@ -38,6 +38,9 @@ body {
     width: 330px;
     height: 260px;
     color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .container .description h1, .container .description h1 span {
@@ -57,14 +60,12 @@ body {
 
 .container .description .text {
     width: 280px;
-    margin-top: 20px;
     line-height: 1.9rem;
 }
 
 .container .numbers {
     display: flex;
     width: 280px;
-    margin-top: 60px;
     justify-content: space-between;
 }
 
