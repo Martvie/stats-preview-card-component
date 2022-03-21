@@ -1,0 +1,25 @@
+@media (max-width: 810px){
+    .main-container {
+        flex-direction: column-reverse;
+        height: 600px;    
+    }
+
+    .main-container .container{
+        width: 100%;
+    }
+
+    .main-container .container:last-child{
+        background-image: linear-gradient(var(--soft-violet-transparent), var(--soft-violet-transparent)), url(../images/image-header-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .container .description {
+        width: 80%;
+    }
+
+    .container .numbers, .container .description .text {
+        width: 80%;
+    }
+}

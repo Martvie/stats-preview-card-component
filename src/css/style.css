@@ -4,10 +4,10 @@ html {
 
 body {
     background-color: var(--very-dark-blue);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 .main-container{
@@ -15,7 +15,9 @@ body {
     max-width: 900px;
     width: 85%;
     height: 350px;
+
     display: flex;
+
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -23,6 +25,7 @@ body {
 .main-container .container{
     width: 50%;
     height: 350px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +41,9 @@ body {
 .container .description {
     width: 330px;
     height: 260px;
+
     color: var(--white);
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
