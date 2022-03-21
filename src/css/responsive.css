@@ -16,10 +16,22 @@
     }
 
     .container .description {
-        width: 80%;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .container .numbers, .container .description .text {
-        width: 80%;
+        width: 100%;
+    }
+}
+@media (max-width: 475px) {
+    .main-container .container:last-child{
+        height: 250px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-container .container:last-child{
     }
 }
