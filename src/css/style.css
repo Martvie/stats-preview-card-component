@@ -5,6 +5,8 @@ html {
 body {
     background-color: var(--very-dark-blue);
     min-height: 100vh;
+    min-width: 360px;
+
     display: flex;
     justify-content: center;
     align-items: center;
