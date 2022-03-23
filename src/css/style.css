@@ -72,16 +72,17 @@ body {
 }
 
 .container .numbers {
-    display: flex;
     width: 280px;
+    display: flex;
     justify-content: space-between;
 }
 
 .container .numbers h2 {
     font-size: 2rem;
     font-weight: 700;
-    margin: 2px;
     color: var(--white);
+    
+    margin: 2px;
 }
 
 .container .numbers p {
