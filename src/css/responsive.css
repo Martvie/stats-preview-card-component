@@ -25,6 +25,10 @@
         height: 400px;
     }
 
+    .container .description .text {
+        transform: translateY(0px);
+    }
+
     .main-container .container:last-child {
         background-image: linear-gradient(var(--soft-violet-transparent), var(--soft-violet-transparent)), url(../images/image-header-mobile.jpg);
         background-repeat: no-repeat;

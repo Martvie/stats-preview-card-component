@@ -70,6 +70,7 @@ body {
 .container .description .text {
     width: 90%;
     line-height: 1.9rem;
+    transform: translateY(-15px);
 }
 
 .container .numbers {
