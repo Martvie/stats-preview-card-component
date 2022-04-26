@@ -41,8 +41,8 @@ body {
 }
 
 .container .description {
-    width: 330px;
-    height: 260px;
+    width: 400px;
+    height: 360px;
 
     color: var(--white);
 
@@ -52,7 +52,7 @@ body {
 }
 
 .container .description h1, .container .description h1 span {
-    font-size: 2.8rem;
+    font-size: 3.6rem;
     font-weight: 700;
 }
 
@@ -63,22 +63,23 @@ body {
 
 .container .description p {
     color: var(--slightly-transparent-more);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 
 .container .description .text {
-    width: 280px;
+    width: 90%;
     line-height: 1.9rem;
 }
 
 .container .numbers {
-    width: 280px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
 
 .container .numbers h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: var(--white);
 
@@ -87,5 +88,5 @@ body {
 
 .container .numbers p {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
